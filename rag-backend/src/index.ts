@@ -1,6 +1,6 @@
 import express, {Request, Response} from 'express'
 import cors from 'cors'
-import {createTable} from './database/SQL.ts'
+import {} from './database/SQL.ts'
 
 
 
@@ -9,7 +9,6 @@ app.use(cors())
 app.use(express.json())
 const PORT = process.env.PORT
 app.get('/', (req: Request, res: Response) => res.send('ok'))
-createTable()
 
 
 
