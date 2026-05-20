@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.json())
 const PORT = process.env.PORT
 app.get('/', (req: Request, res: Response) => res.send('ok'))
-createTable
+createTable()
 
 
 
