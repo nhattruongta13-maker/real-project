@@ -10,4 +10,4 @@ const PORT = process.env.PORT
 
 
 
-app.listen(`The server is living on ${PORT}`)
+app.listen(PORT, () => console.log(`The server is running on port ${PORT}`))

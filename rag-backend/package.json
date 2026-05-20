@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --exec tsx src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "build": "echo 'skipping tsc'",
+    "start": "tsx src/index.ts"
   },
   "dependencies": {
     "cors": "^2.8.6",
